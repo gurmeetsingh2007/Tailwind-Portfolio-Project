@@ -432,6 +432,9 @@
   .flex-1 {
     flex: 1;
   }
+  .grow {
+    flex-grow: 1;
+  }
   .rotate-180 {
     rotate: 180deg;
   }
@@ -868,9 +871,6 @@
       color: color-mix(in oklab, var(--accent) 80%, transparent);
     }
   }
-  .text-\(--text\) {
-    color: var(--text);
-  }
   .text-\(--text-1\) {
     color: var(--text-1);
   }
@@ -885,9 +885,6 @@
   }
   .text-amber-700 {
     color: var(--color-amber-700);
-  }
-  .text-black {
-    color: var(--color-black);
   }
   .text-blue-400 {
     color: var(--color-blue-400);
